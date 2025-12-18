@@ -1,7 +1,24 @@
 # 📘 PHP CRUD Mahasiswa
 
+![PHP](https://img.shields.io/badge/PHP-8.x-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
+![Status](https://img.shields.io/badge/Status-Learning-success)
+
 Aplikasi **CRUD (Create, Read, Update, Delete)** sederhana menggunakan **PHP Native** dan **MySQL**.  
 Proyek ini dibuat sebagai **portofolio mahasiswa Teknologi Informasi semester awal** untuk mempelajari dasar pengembangan web backend.
+
+---
+
+## 📸 Screenshot Aplikasi
+> Tambahkan screenshot aplikasi ke folder `assets/screenshots/`  
+> Lalu sesuaikan nama file di bawah ini
+
+```md
+![Login Page](assets/screenshots/login.png)
+![Dashboard](assets/screenshots/dashboard.png)
+![Form Mahasiswa](assets/screenshots/form.png)
+```
 
 ---
 
@@ -27,7 +44,7 @@ Proyek ini dibuat sebagai **portofolio mahasiswa Teknologi Informasi semester aw
 
 ## 📂 Struktur Folder
 ```text
-assets/       → File CSS
+assets/       → File CSS & Screenshot
 auth/         → Login & Logout
 config/       → Koneksi Database
 mahasiswa/    → CRUD Data Mahasiswa
@@ -40,7 +57,7 @@ mahasiswa/    → CRUD Data Mahasiswa
 2. Import database ke **phpMyAdmin**
 3. Simpan project di folder **htdocs**
 4. Jalankan melalui browser:
-   ```
+   ```text
    http://localhost/php-crud-mahasiswa
    ```
 
@@ -52,6 +69,14 @@ Semester Awal
 
 ---
 
+## 📈 Pengembangan Selanjutnya
+- AJAX Live Search
+- Export PDF / Excel
+- MVC Architecture
+- Multi Role User (Admin / User)
+
+---
+
 ## ⭐ Catatan
 Proyek ini dibuat untuk tujuan **pembelajaran dan portofolio**.  
-Masih dapat dikembangkan lebih lanjut seperti **AJAX, MVC, atau role user**.
+Struktur masih menggunakan **PHP Native**, namun siap dikembangkan ke **MVC Framework**.
