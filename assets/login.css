@@ -1,0 +1,84 @@
+/* Reset ringan khusus login */
+.login-page * {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* Background */
+.login-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e4f2ff, #eff7fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.login-box {
+    background: #ffffff;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    animation: slideFade 0.5s ease;
+}
+
+/* Title */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Error message */
+.login-error {
+    background: #ffe1e1;
+    color: #c0392b;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Input */
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.login-box input:focus {
+    border-color: #4facfe;
+    outline: none;
+}
+
+/* Button */
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #4facfe;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #00c6fb;
+}
+
+/* Animation */
+@keyframes slideFade {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

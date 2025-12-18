@@ -1,0 +1,87 @@
+/* Scope khusus halaman edit */
+.edit-page * {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.edit-page {
+    min-height: 100vh;
+    background: #f4f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-card {
+    background: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeUp 0.4s ease;
+}
+
+.edit-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.edit-card label {
+    font-size: 14px;
+    color: #555;
+}
+
+.edit-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 18px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.edit-card input:focus {
+    border-color: #4facfe;
+    outline: none;
+}
+
+.edit-card button {
+    width: 100%;
+    padding: 10px;
+    background: #4facfe;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit-card button:hover {
+    background: #00c6fb;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #4facfe;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
