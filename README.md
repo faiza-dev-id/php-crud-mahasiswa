@@ -1,23 +1,31 @@
-# Sistem Manajemen Data Mahasiswa
+# PHP CRUD Mahasiswa
 
-Website CRUD sederhana berbasis PHP dan MySQL.
+Aplikasi CRUD sederhana menggunakan PHP dan MySQL.
+Dibuat sebagai portofolio mahasiswa Teknologi Informasi semester awal.
 
-## Fitur
-- Login Admin
-- Tambah, Edit, Hapus Data
-- Tampil Data
-- Logout
+## ✨ Fitur
+- Login & Logout (Admin)
+- CRUD Data Mahasiswa
+- Password Hashing
+- Session Authentication
+- Prepared Statement (Anti SQL Injection)
 
-## Teknologi
-- PHP
+## 🛠 Teknologi
+- PHP Native
 - MySQL
-- HTML
-- CSS
+- HTML & CSS
 
-## Cara Menjalankan
-1. Import database.sql ke phpMyAdmin
-2. Jalankan di localhost
-3. Login sebagai admin
+## 📂 Struktur Folder
+- assets/ → CSS
+- auth/ → Login & Logout
+- config/ → Koneksi Database
+- mahasiswa/ → CRUD Mahasiswa
 
-## Catatan
-Project ini dibuat untuk pembelajaran dan portofolio.
+## 🚀 Cara Menjalankan
+1. Import database ke phpMyAdmin
+2. Simpan project di htdocs
+3. Jalankan melalui browser:
+   http://localhost/php-crud-mahasiswa
+
+## 👤 Author
+Mahasiswa Teknologi Informasi
