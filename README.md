@@ -5,6 +5,12 @@ Proyek ini dibuat sebagai **portofolio mahasiswa Teknologi Informasi semester aw
 
 ---
 
+## 🔑 Akun Demo
+Username: admin  
+Password: admin123
+
+---
+
 ## ✨ Fitur
 - Login & Logout (Admin)
 - CRUD Data Mahasiswa
